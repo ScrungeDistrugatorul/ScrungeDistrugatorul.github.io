@@ -3,30 +3,30 @@
   margin: 0;
   padding: 0;
 }
-@media screen and (min-width: 800px){
 body {
-  background-image: url(https://www.photos-public-domain.com/wp-content/uploads/2012/08/navy-blue-micro-fiber-cloth-fabric-texture.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #1D8080;
 }
 .header {
   display: flex;
   flex: 1;
   width: 100vw;
   height: 100vh;
-  background-color: #FF2400;
-  box-shadow: 0px 2px 5px #f28500;
+  background-color: #9EFFFF;
+  box-shadow: 0px 3px 5px #ffffff;
   justify-content: center;
   flex-direction: column;
   position: sticky;
-  height: 100px;
+  height: 400px;
 }
 .header h2 {
+  display: flex;
   font-family: "Oxygen";
-  justify-content: flex-start;
-  color: white;
+  position: absolute;
+  top: 100px;
+  left: 860px; 
+  color: #7D8080;
   padding: 30px;
-  height: 100px;
+    padding-right: 200px;
 }
 nav {
   display: flex;
@@ -53,13 +53,11 @@ nav ul li a:hover {
 }
 
 main {
-  max-width: 1200px;
+  max-width: 1700px;
   margin: 0 auto;
   display: flex;
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: lightblue;
-  box-shadow: 5px 2px 10px white;
   padding-left: 15px;
 }
 .mainPage {
@@ -67,13 +65,13 @@ main {
   flex: 4;
 }
 .mainPage img {
-  box-shadow: 5px 2px 10px white;
+  
 }
 .side {
   order: 3;
   flex: 1;
   height: 200px;
-  background-color: darkblue;
+  background-color: #9EFFFF;
   margin: 20px;
   border-radius: 0px 20px 20px 0px;
   display: flex;
@@ -84,7 +82,7 @@ main {
 }
 p {
   font-family: "Oxygen";
-  color: white;
+  color: #7D8080;
   text-align: center;
   font-size: 32px;
   font-weight: 800;
@@ -95,13 +93,29 @@ p {
 img {
   width: 99%;
 }
+img.profile{
+    margin-top: -20px;
+    width: 105%;
+}
 figure {
   padding-top: 20px;
+}
+figure.profile{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 400px;
+    border:5px solid white;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
 }
 figcaption p{
   font-family: "Oxygen";
   font-size: 32px;
-  color: black;
+  color: #D2D6D6;
 }
 a {
   color: black;
@@ -110,17 +124,14 @@ a {
   display: flex;
   justify-content: flex-end;
   width: 100vw;
-  height: 100vh;
-  background-color: #FF2400;
-  box-shadow: 0px -2px 5px #f28500;
   height: 100px;
+  background-color: #9EFFFF;
+  box-shadow: 0px -3px 5px #FAFFFF;
 }
 .footer a img {
   width: 75px;
   padding: 10px;
 }
 .footer a:hover{
-  background-color: #f28500;
-}
-
+  background-color: #D2D6D6;
 }
