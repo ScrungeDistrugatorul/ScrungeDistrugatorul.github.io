@@ -7,3 +7,5 @@ title: 'Project Show-Off'
 ## Introduction
 
 This project was a Digi Swap AG racer for the Overkill festival 2022.
+
+![Design Iteration](./images/Screenshot_1.png "Design iteration")

@@ -4,5 +4,3 @@ draft: false
 title: 'Projects'
 ---
 
-- [Project Show-off](./Project_Show-Off.md)
-- [Project Customer](./Project_Customer.md)
